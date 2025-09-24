@@ -101,7 +101,7 @@ export default function GuiaRedacaoPerfeita() {
       <div
         className={`w-full py-2 px-4 text-center text-xs sm:text-sm font-bold ${isUrgent ? "bg-primary animate-pulse" : "bg-primary"} text-primary-foreground shadow-lg`}
       >
-        🔥 DESCONTO DE HOJE: Apenas {formatTime(timeLeft)} restantes! Últimas 263 vagas disponíveis! 🔥
+        🔥 DESCONTO DE HOJE: Apenas {formatTime(timeLeft)} restantes! ÚLTIMAS VAGAS DISPONÍVEIS! 🔥
       </div>
 
       <section className="relative overflow-hidden">
