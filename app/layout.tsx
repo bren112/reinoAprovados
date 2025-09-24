@@ -5,7 +5,7 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Reino Aprovados',
+  title: 'Reino dos Aprovados',
   description: 'Aprovados em concursos públicos com materiais gratuitos e de qualidade.',
   generator: 'dev',
 }
