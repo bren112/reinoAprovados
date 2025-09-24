@@ -128,12 +128,7 @@ export default function GuiaRedacaoPerfeita() {
                   </div>
                 </div>
 
-                <p className="text-base sm:text-lg lg:text-xl xl:text-2xl text-foreground leading-relaxed text-pretty">
-                  <span className="text-primary font-bold">O MÉTODO SECRETO</span> QUE TRANSFORMA{" "}
-                  <strong className="text-secondary bg-secondary/10 px-2 py-1 rounded">QUALQUER TEMA</strong> EM UMA{" "}
-                  <strong className="text-primary bg-primary/10 px-2 py-1 rounded">REDAÇÃO PERFEITA</strong> {" "}
-                  <span className="text-secondary font-bold"></span>
-                </p>
+             
               </div>
 
               <div className="flex items-center gap-3 sm:gap-4 p-4 sm:p-6 bg-gradient-to-r from-success/10 to-secondary/10 rounded-xl border-2 border-success/30 shadow-lg">
