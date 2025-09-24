@@ -458,7 +458,7 @@ export default function GuiaRedacaoPerfeita() {
               >
                 <a href="https://pay.kiwify.com.br/8CxSJ8z" className="w-full h-full flex items-center justify-center">
                   <Trophy className="w-6 h-6 sm:w-8 sm:h-8 lg:w-10 lg:h-10 mr-2 sm:mr-4 text-secondary-foreground" />
-                  SIM! QUERO GARANTIR MEU ACESSO AGORA!
+                  MEU ACESSO AGORA!
                   <Sparkles className="w-6 h-6 sm:w-8 sm:h-8 lg:w-10 lg:h-10 ml-2 sm:ml-4 text-secondary-foreground animate-spin" />
                 </a>
               </Button>
