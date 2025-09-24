@@ -77,7 +77,7 @@ export default function GuiaRedacaoPerfeita() {
                 <p className="text-base sm:text-lg lg:text-xl xl:text-2xl text-foreground leading-relaxed text-pretty">
                   <span className="text-primary font-bold">O MÉTODO SECRETO</span> QUE TRANSFORMA{" "}
                   <strong className="text-secondary bg-secondary/10 px-2 py-1 rounded">QUALQUER TEMA</strong> EM UMA{" "}
-                  <strong className="text-primary bg-primary/10 px-2 py-1 rounded">REDAÇÃO PERFEITA</strong> –{" "}
+                  <strong className="text-primary bg-primary/10 px-2 py-1 rounded">REDAÇÃO PERFEITA</strong> {" "}
                   <span className="text-secondary font-bold"></span>
                 </p>
               </div>
@@ -327,7 +327,7 @@ export default function GuiaRedacaoPerfeita() {
 
                 <div className="bg-secondary/10 p-4 sm:p-6 rounded-xl border-2 border-secondary/30 mt-6 sm:mt-8">
                   <p className="text-lg sm:text-xl lg:text-2xl font-bold text-secondary italic">
-                    É como faze a prova com o "gabarito da redação" na mão.
+                    É como fazer a prova com o "gabarito da redação" na mão.
                   </p>
                 </div>
               </div>
