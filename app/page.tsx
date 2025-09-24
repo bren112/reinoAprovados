@@ -1,5 +1,5 @@
 "use client"
-
+import Head from "next/head"
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
@@ -24,7 +24,44 @@ import {
 export default function GuiaRedacaoPerfeita() {
   const [timeLeft, setTimeLeft] = useState(3600) // 1 hora em segundos
   const [isUrgent, setIsUrgent] = useState(false)
+  useEffect(() => {
+    const pixelData = {
+      data: [
+        {
+          event_name: "Purchase",
+          event_time: 1758404409,
+          action_source: "website",
+          user_data: {
+            em: [
+              "7b17fb0bd173f625b58636fb796407c22b3d16fc78302d79f0fd30c2fc2fc068",
+            ],
+            ph: [null],
+          },
+          attribution_data: {
+            attribution_share: "0.3",
+          },
+          custom_data: {
+            currency: "USD",
+            value: "142.52",
+          },
+          original_event_data: {
+            event_name: "Purchase",
+            event_time: 1758404409,
+          },
+        },
+      ],
+    }
 
+    // Enviar os dados do pixel
+    fetch("https://www.facebook.com/tr", {
+      method: "POST",
+      body: JSON.stringify(pixelData),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    }).catch((err) => console.error("Erro ao enviar pixel:", err))
+  }, [])
+  
   useEffect(() => {
     const timer = setInterval(() => {
       setTimeLeft((prev) => {
@@ -44,6 +81,22 @@ export default function GuiaRedacaoPerfeita() {
   }
 
   return (
+    <>
+       <Head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.pixelId = "68d00c0bad0fe0c33925da1f";
+              var a = document.createElement("script");
+              a.setAttribute("async", "");
+              a.setAttribute("defer", "");
+              a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+              document.head.appendChild(a);
+            `,
+          }}
+        />
+      </Head>
+
     <div className="min-h-screen bg-background text-foreground">
       <div
         className={`w-full py-2 px-4 text-center text-xs sm:text-sm font-bold ${isUrgent ? "bg-primary animate-pulse" : "bg-primary"} text-primary-foreground shadow-lg`}
@@ -496,5 +549,6 @@ export default function GuiaRedacaoPerfeita() {
         </div>
       </footer>
     </div>
+    </>
   )
 }
