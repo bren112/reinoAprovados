@@ -48,7 +48,7 @@ export default function GuiaRedacaoPerfeita() {
       <div
         className={`w-full py-2 px-4 text-center text-xs sm:text-sm font-bold ${isUrgent ? "bg-primary animate-pulse" : "bg-primary"} text-primary-foreground shadow-lg`}
       >
-        🔥 DESCONTO DE HOJE: Apenas {formatTime(timeLeft)} restantes! Últimas 7 vagas disponíveis! 🔥
+        🔥 DESCONTO DE HOJE: Apenas {formatTime(timeLeft)} restantes! Últimas 263 vagas disponíveis! 🔥
       </div>
 
       <section className="relative overflow-hidden">
@@ -63,9 +63,9 @@ export default function GuiaRedacaoPerfeita() {
                 </Badge>
 
                 <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-6xl font-black leading-tight text-balance">
-                  <span className="text-primary drop-shadow-lg">A verdade sobre a "Redação do ENEM"</span> que os{" "}
-                  <span className="text-secondary drop-shadow-lg">cursinhos milionários</span> esconderam de você…{" "}
-                  <span className="text-primary">até agora.</span>
+                  <span className="text-primary drop-shadow-lg">A VERDADE SOBRE A "REDAÇÃO DO ENEM"</span>  QUE OS{" "}
+                  <span className="text-secondary drop-shadow-lg">CURSINHOS MILIONÁRIOS</span> ESCONDERAM DE VOCÊ…{" "}
+                  <span className="text-primary">ATÉ AGORA.</span>
                 </h1>
 
                 <div className="text-center py-4 sm:py-6 lg:py-8">
@@ -327,7 +327,7 @@ export default function GuiaRedacaoPerfeita() {
 
                 <div className="bg-secondary/10 p-4 sm:p-6 rounded-xl border-2 border-secondary/30 mt-6 sm:mt-8">
                   <p className="text-lg sm:text-xl lg:text-2xl font-bold text-secondary italic">
-                    É como jogar a prova com o "gabarito da redação" na mão.
+                    É como trocar a prova com o "gabarito da redação" na mão.
                   </p>
                 </div>
               </div>
