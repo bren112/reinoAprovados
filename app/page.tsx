@@ -112,13 +112,14 @@ export default function GuiaRedacaoPerfeita() {
             <div className="space-y-6 lg:space-y-8">
               <div className="space-y-4">
                 <Badge className="bg-secondary text-secondary-foreground font-bold px-4 py-2 text-sm sm:text-base shadow-lg border-2 border-secondary/50">
-                  <Crown className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />🏆 MÉTODO #1 NO BRASIL
+                  <Crown className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />🏆 MÉTODO Nº1 NO BRASIL
                 </Badge>
 
                 <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-6xl font-black leading-tight text-balance">
-                  <span className="text-primary drop-shadow-lg">A VERDADE SOBRE A "REDAÇÃO DO ENEM"</span>  QUE OS{" "}
-                  <span className="text-secondary drop-shadow-lg">CURSINHOS MILIONÁRIOS</span> ESCONDERAM DE VOCÊ…{" "}
-                  <span className="text-primary">ATÉ AGORA.</span>
+                  <span className="text-primary drop-shadow-lg"></span> O {" "}
+                  <span className="text-secondary drop-shadow-lg">CÓDIGO SECRETO</span> para a Redação Nota 1000 que a Elite do ENEM Tenta Esconder de Você.
+{" "}
+
                 </h1>
 
                 <div className="text-center py-4 sm:py-6 lg:py-8">
