@@ -281,7 +281,7 @@ export default function GuiaRedacaoPerfeita() {
 
               <Button className="w-full h-10 sm:h-12 lg:h-14 text-xs sm:text-sm lg:text-lg font-bold bg-success text-success-foreground hover:bg-success/90 shadow-lg">
                 <a href="https://pay.kiwify.com.br/8CxSJ8z" className="w-full h-full flex items-center justify-center">
-                 PLANO COMPLETO
+                 SIM, QUERO MINHA APROVAÇÃO!
                 </a>
               </Button>
             </Card>
