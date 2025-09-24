@@ -169,7 +169,7 @@ export default function GuiaRedacaoPerfeita() {
                       <p className="text-secondary font-bold">Método Infalível #NOTA1000</p>
                     </div>
 
-                    <div className="grid grid-cols-2 gap-3 sm:gap-4">
+                    <div className="grid grid-cols-2 gap-3 sm:gap-4"  >
                       {[
                         { icon: Target, label: "100+ Modelos", color: "text-primary" },
                         { icon: TrendingUp, label: "Técnicas Secretas", color: "text-success" },
@@ -244,13 +244,17 @@ export default function GuiaRedacaoPerfeita() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:gap-6 max-w-5xl mx-auto">
+          <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:gap-6 max-w-5xl mx-auto"  style={{
+                      
+                                                                      display: 'flex',
+                                                                      flexDirection: 'column'
+                                                                            }}>
             {/* Plano Completo */}
-            <Card className="relative p-3 sm:p-4 lg:p-6 bg-gradient-to-br from-card via-primary/5 to-secondary/10 border-2 border-success/50 shadow-2xl hover:scale-105 transition-transform">
+            <Card className="relative p-3 sm:p-4 lg:p-6 bg-gradient-to-br from-card via-primary/5 to-secondary/10 border-2 border-success/50 shadow-2xl hover:scale-105 transition-transform" style={{border:'solid 4px green'}}>
           
 
-              <div className="text-center mb-4 sm:mb-6 lg:mb-8 pt-3 sm:pt-4">
-                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-foreground mb-2">Plano Completo</h3>
+              <div className="text-center mb-4 sm:mb-6 lg:mb-8 pt-3 sm:pt-4" >
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-foreground mb-2" style={{fontSize:'2pc',}}>Plano Completo</h3>
                 <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-success mb-2">R$27</div>
                 <p className="text-xs sm:text-sm text-muted-foreground">Ou 5x de R$5,89</p>
               </div>
