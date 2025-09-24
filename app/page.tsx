@@ -141,11 +141,9 @@ export default function GuiaRedacaoPerfeita() {
               </div>
 
               <div className="absolute -top-2 -right-2 sm:-top-4 sm:-right-4 z-20">
-                <Badge className="bg-primary text-primary-foreground animate-bounce shadow-lg border-2 border-white/50 text-xs sm:text-sm">
-                  <Flame className="w-3 h-3 sm:w-4 sm:h-4 mr-1" />🔥 MAIS VENDIDO
-                </Badge>
+             
               </div>
-
+<br />
               <div className="absolute -bottom-2 -left-2 sm:-bottom-4 sm:-left-4 z-20">
                 <Badge className="bg-success text-success-foreground animate-pulse shadow-lg border-2 border-white/50 text-xs sm:text-sm">
                   <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4 mr-1" />✅ GARANTIA 7 DIAS
@@ -200,9 +198,7 @@ export default function GuiaRedacaoPerfeita() {
           <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:gap-6 max-w-5xl mx-auto">
             {/* Plano Completo */}
             <Card className="relative p-3 sm:p-4 lg:p-6 bg-gradient-to-br from-card via-primary/5 to-secondary/10 border-2 border-success/50 shadow-2xl hover:scale-105 transition-transform">
-              <Badge className="absolute -top-2 left-1/2 transform -translate-x-1/2 bg-success text-success-foreground font-bold px-2 sm:px-3 lg:px-4 py-1 sm:py-2 text-xs sm:text-sm shadow-lg">
-                👑 MAIS VENDIDO!
-              </Badge>
+          
 
               <div className="text-center mb-4 sm:mb-6 lg:mb-8 pt-3 sm:pt-4">
                 <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-foreground mb-2">Plano Completo</h3>
@@ -232,7 +228,7 @@ export default function GuiaRedacaoPerfeita() {
 
               <Button className="w-full h-10 sm:h-12 lg:h-14 text-xs sm:text-sm lg:text-lg font-bold bg-success text-success-foreground hover:bg-success/90 shadow-lg">
                 <a href="https://pay.kiwify.com.br/8CxSJ8z" className="w-full h-full flex items-center justify-center">
-                  QUERO O PLANO COMPLETO
+                 PLANO COMPLETO
                 </a>
               </Button>
             </Card>
@@ -272,7 +268,7 @@ export default function GuiaRedacaoPerfeita() {
 
               <Button className="w-full h-10 sm:h-12 lg:h-14 text-xs sm:text-sm lg:text-lg font-bold bg-success text-success-foreground hover:bg-success/90 shadow-lg mb-3 sm:mb-4">
                 <a href="https://pay.kiwify.com.br/nYBpoSc" className="w-full h-full flex items-center justify-center">
-                  QUERO O PLANO BÁSICO
+                 PLANO BÁSICO
                 </a>
               </Button>
 
