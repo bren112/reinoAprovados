@@ -107,7 +107,7 @@ export default function GuiaRedacaoPerfeita() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-secondary/5 to-accent/10" />
         <div className="relative container mx-auto px-4 py-8 sm:py-12 lg:py-20">
-          <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center" style={{display:'flex',justifyContent:'center'}}>
             {/* Lado esquerdo - Copy principal */}
             <div className="space-y-6 lg:space-y-8">
               <div className="space-y-4">
