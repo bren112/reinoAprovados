@@ -155,50 +155,11 @@ export default function GuiaRedacaoPerfeita() {
                 </div>
               </div>
             </div>
-
-            <div className="relative">
-              <div className="relative z-10 transform rotate-1 hover:rotate-0 transition-transform duration-500">
-                <Card className="p-6 sm:p-8 bg-gradient-to-br from-card via-primary/5 to-secondary/10 border-2 border-primary/30 shadow-2xl original-border">
-                  <div className="space-y-4 sm:space-y-6">
-                    <div className="text-center">
-                      <div className="relative">
-                        <BookOpen className="w-16 h-16 sm:w-20 sm:h-20 mx-auto text-primary mb-4 drop-shadow-lg" />
-                        <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 absolute -top-2 -right-2 text-secondary animate-pulse" />
-                      </div>
-                      <h3 className="text-2xl sm:text-3xl font-bold text-primary">Guia da Redação Perfeita</h3>
-                      <p className="text-secondary font-bold">Método Infalível #NOTA1000</p>
-                    </div>
-
-                    <div className="grid grid-cols-2 gap-3 sm:gap-4"  >
-                      {[
-                        { icon: Target, label: "100+ Modelos", color: "text-primary" },
-                        { icon: TrendingUp, label: "Técnicas Secretas", color: "text-success" },
-                        { icon: Trophy, label: "Casos de Sucesso", color: "text-secondary" },
-                        { icon: Zap, label: "Resultados Rápidos", color: "text-accent" },
-                      ].map(({ icon: Icon, label, color }) => (
-                        <div
-                          key={label}
-                          className="text-center p-3 sm:p-4 bg-gradient-to-br from-background/80 to-primary/5 rounded-xl border border-primary/20 hover:scale-105 transition-transform"
-                        >
-                          <Icon className={`w-8 h-8 sm:w-10 sm:h-10 mx-auto ${color} mb-2 drop-shadow-sm`} />
-                          <p className="text-xs sm:text-sm font-bold">{label}</p>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </Card>
-              </div>
-
-              <div className="absolute -top-2 -right-2 sm:-top-4 sm:-right-4 z-20">
-             
-              </div>
-<br />
-              <div className="absolute -bottom-2 -left-2 sm:-bottom-4 sm:-left-4 z-20">
-                <Badge className="bg-success text-success-foreground animate-pulse shadow-lg border-2 border-white/50 text-xs sm:text-sm">
-                  <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4 mr-1" />✅ GARANTIA 7 DIAS
-                </Badge>
-              </div>
-            </div>
+<Button className="w-full h-10 sm:h-12 lg:h-14 text-xs sm:text-sm lg:text-lg font-bold bg-success text-success-foreground hover:bg-success/90 shadow-lg">
+                <a href="#planos" className="w-full h-full flex items-center justify-center">
+                 DESTRAVAR MINHA APROVAÇÃO AGORA!
+                </a>
+              </Button>
           </div>
         </div>
       </section>
@@ -233,7 +194,7 @@ export default function GuiaRedacaoPerfeita() {
         </div>
       </section>
 
-      <section className="py-12 sm:py-16 bg-gradient-to-r from-card/50 via-primary/5 to-secondary/5">
+      <section id="planos" className="py-12 sm:py-16 bg-gradient-to-r from-card/50 via-primary/5 to-secondary/5">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8 sm:mb-12">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 text-balance">
@@ -270,7 +231,7 @@ export default function GuiaRedacaoPerfeita() {
                   "Bônus 05: Banco de Conectivos e Expressões-Chave",
                   "Bônus 06: Mapas Mentais de Redação",
                   "Garantia de 30 dias",
-                  "Suporte vitalício",
+                  "Acesso vitalício",
                 ].map((feature, index) => (
                   <div key={index} className="flex items-start gap-2">
                     <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4 lg:w-5 lg:h-5 text-success mt-0.5 flex-shrink-0" />
